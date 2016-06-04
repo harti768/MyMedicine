@@ -1,5 +1,6 @@
 package com.wordpress.httpseliminatorgang.mymedicine;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -22,12 +23,21 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                startActivity(new Intent(MainActivity.this, QRCodeActivity.class));
             }
         });
     }
-
+    public void openNewActivity(View view) {
+        Intent intent = new Intent(this, BloodPressureBlockerActivity.class);
+        startActivity(intent);
+    }
+    public void openNewActivity1(View view) {
+        Intent intent = new Intent(this, GoodBonesActivity.class);
+        startActivity(intent);
+    }public void openNewActivity2(View view) {
+        Intent intent = new Intent(this, AthletesFoodActivity.class);
+        startActivity(intent);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

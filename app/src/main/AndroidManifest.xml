@@ -22,6 +22,18 @@
             android:name="QRCodeActivity"
             android:label="@string/app_name">
         </activity>
+        <activity
+            android:name=".BloodPressureBlockerActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".GoodBonesActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".AthletesFoodActivity"
+            android:label="@string/app_name">
+        </activity>
     </application>
 
 </manifest>
