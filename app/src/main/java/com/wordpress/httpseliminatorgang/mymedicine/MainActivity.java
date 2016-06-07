@@ -27,17 +27,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public void openNewActivity(View view) {
+    public void openNewActivity1(View view) {
         Intent intent = new Intent(this, BloodPressureBlockerActivity.class);
         startActivity(intent);
     }
-    public void openNewActivity1(View view) {
+    public void openNewActivity2(View view) {
         Intent intent = new Intent(this, GoodBonesActivity.class);
         startActivity(intent);
-    }public void openNewActivity2(View view) {
+    }public void openNewActivity3(View view) {
         Intent intent = new Intent(this, AthletesFoodActivity.class);
         startActivity(intent);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -54,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            startActivity(new Intent(MainActivity.this, MyProfileActivity.class));
             return true;
         }
 
