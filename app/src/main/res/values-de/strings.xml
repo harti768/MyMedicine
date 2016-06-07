@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Meine Medikamente</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="My_Profile">Mein Profil</string>
+    <string name="Medicine_1">Blutdruck-Blocker</string>
+    <string name="Medicine_2">gute Knochen</string>
+    <string name="Medicine_3">Fußpilz</string>
+
+    <string name="Medicine_column1_1"> Medizin:</string>
+    <string name="Medicine_column1_2">Anwendungsgebiet:</string>
+    <string name="Medicine_column1_3">letzte Änderung der Packungsbeilage: </string>
+    <string name="Medicine_column1_4">Änderungen:</string>
+    <string name="Medicine3_column1_4"> Nebeneffekte:</string>
+
+    <string name="Medicine1_column2_2">senkt den Blutdruck</string>
+    <string name="Medicine1_column2_3">1. Januar 2015</string>
+    <string name="Medicine1_column2_4">nichts</string>
+
+    <string name="Medicine2_column2_2">hilft bei Rheuma</string>
+    <string name="Medicine2_column2_3">21. März 2016</string>
+    <string name="Medicine2_column2_4">Nebenwirkung Durchfall beseitigt</string>
+
+    <string name="Medicine3_column2_2">heilt Fußpilz</string>
+    <string name="Medicine3_column2_3">19. März 2016</string>
+    <string name="Medicine3_column2_4">alles ist möglich</string>
+
+
+    <string name="Profile_column1_1">Eigentümer:</string>
+    <string name="Profile_column1_2">Alter:</string>
+    <string name="Profile_column1_3">Geburtsdatum:</string>
+    <string name="Profile_column1_4">Adresse:</string>
+    <string name="Profile_column2_1">Otto Müller</string>
+    <string name="Profile_column2_2">72</string>
+    <string name="Profile_column2_3">15. August 1943</string>
+    <string name="Profile_column2_4">Beispiel Straße 10, 08150 Halle, Deutschland</string>
+</resources>
